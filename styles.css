@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#main-header{
+    background-image: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    text-align: center;
+    color: rgb(241, 236, 229);
+    height: 200px;
+    background-size: cover;
+    padding: 20px 0;
+}
+.sidebar nav ul{
+    list-style-type: none; /*기본적으로 갖고 있는 목록 표시를 없애줌*/
+    padding: 10px;
+}
+
+.sidebar nav ul li a{
+    display: block; /* 한 줄 전체를 차지하게 만들어 버튼처럼 보이게 해줌*/
+    padding: 10px; /*  border 안쪽에 10px의 여백을 넣어줌 */
+    background-color:#4CAF50; /* 배경을 초록색으로 지정*/
+    color: white; /* 글자색을 흰색으로 */
+    text-decoration: none; /* 링크의 기본 밑줄을 제거 */
+    margin-bottom: 5px; /* 메뉴 항목 사이에 간격을 추가 */
+    transition: background-color 0.3s; /* 배경색이 바뀔 때 부드럽게 하기 위함 + 상태 변화와 함께 쓰면 등장하는 효과 */
+}
+.sidebar nav ul li a:hover{
+    background-color: #0d4a0f;
+}
+.sidebar{
+  position: absolute;
+  
+} 
+.signup-form{
+    position: absolute;
+    top:200px;
+    left: 600px;
+}
